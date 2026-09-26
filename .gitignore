@@ -1,4 +1,3 @@
-__pycache__/
-*.pyc
-.env
-.venv/
+*.log
+gcm_err.txt
+gcm_out.txt

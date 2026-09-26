@@ -16,4 +16,6 @@ A subfield of AI focused on enabling computers to understand, interpret, process
 AI systems designed to generate new content—including text, images, audio, video, and code—by learning the underlying distribution of existing data.
 
 ## 6. Large Language Models (LLMs)
-Deep learning models (primarily based on transformer architectures) trained on massive text corpora to understand context and generate coherent, human-like text across diverse tasks.
+Deep learning models (primarily based on transformer architectures) trained on massive text corpora to understand context and generate coherent, human-like text across diverse tasks. 
+
+“LLM stands for Large Language Model. It is an AI model that understands and generates human language. ChatGPT and Gemini are examples of LLMs.”
