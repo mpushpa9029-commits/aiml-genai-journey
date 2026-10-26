@@ -1,0 +1,128 @@
+# Day 30 - Mini RAG Question Answering System
+
+## Today's Goal
+
+Build a simple end-to-end Retrieval-Augmented Generation (RAG) question-answering system.
+
+## What is RAG?
+
+RAG stands for Retrieval-Augmented Generation.
+
+It retrieves relevant information from a knowledge source and uses that information as context for generating an answer.
+
+## Complete RAG Flow
+
+User Question
+↓
+Query Embedding
+↓
+Similarity Search
+↓
+Top-K Retrieval
+↓
+Relevant Context
+↓
+Answer Generation
+
+## Components Used
+
+### 1. Knowledge Base
+
+A collection of documents containing information.
+
+### 2. Embedding
+
+Text is converted into a numerical vector representation.
+
+### 3. Similarity Search
+
+The query vector is compared with document vectors.
+
+### 4. Top-K Retrieval
+
+The most relevant documents are selected.
+
+### 5. Context
+
+The retrieved information is combined and provided to the answer-generation step.
+
+### 6. Answer Generation
+
+The system generates an answer based on the retrieved information.
+
+## Day 30 Implementation
+
+The project:
+
+1. Stores a small collection of documents.
+2. Creates simple embeddings.
+3. Converts the user query into an embedding.
+4. Calculates cosine similarity.
+5. Retrieves the top 2 relevant documents.
+6. Creates context from the retrieved documents.
+7. Generates a response.
+
+## Example
+
+Question:
+
+What is Machine Learning?
+
+The system searches the knowledge base and retrieves the most relevant information about Machine Learning.
+
+## Technologies
+
+- Python
+- Lists
+- Dictionaries
+- Functions
+- Cosine Similarity
+- Vector Representation
+- Retrieval
+- RAG Concepts
+
+## Important Note
+
+This is a simplified educational RAG system.
+
+It does not use a real LLM, production embedding model, or production vector database.
+
+The purpose is to understand the architecture and workflow of RAG.
+
+## RAG vs Normal LLM
+
+Normal LLM:
+
+Question
+↓
+LLM
+↓
+Answer
+
+RAG:
+
+Question
+↓
+Retrieve Information
+↓
+Context + Question
+↓
+LLM
+↓
+Answer
+
+## Learning Outcome
+
+I built a simple end-to-end RAG-style question-answering system and understood how retrieval and context can be used before answer generation.
+
+## 30-Day Milestone
+
+I completed the first stage of my hands-on Generative AI journey by learning the fundamentals of:
+
+- Python
+- Machine Learning concepts
+- NLP basics
+- Embeddings
+- Vector Search
+- Retrieval
+- RAG
